@@ -1,0 +1,153 @@
+* {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 400;
+}
+
+:root {
+  --black: rgb(0, 0, 0);
+  --font: rgb(33, 33, 33);
+  --dark: rgb(47, 48, 58);
+  --white: rgb(255, 255, 255);
+  --blue: rgb(33, 150, 243);
+  --grey: rgb(117, 117, 117);
+  --shadow: rgba(0, 0, 0, 0.15);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--font);
+  width: 1600px;
+  height: 2349px;
+  background: var(--white);
+}
+
+.title {
+  font-weight: 900;
+  font-size: 2.75rem;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+  background: var(--dark);
+}
+
+.order {
+  background: var(--blue);
+  box-shadow: 0px 4px 4px var(--shadow);
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white);
+}
+
+.lorem {
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.loremipsum {
+  font-size: 0.875rem;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--grey);
+}
+
+.secondtitle {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.job {
+  font-size: 1rem;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--grey);
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.625rem;
+  line-height: 1.19;
+  color: var(--blue);
+}
+
+.highlightblack {
+  color: var(--black);
+}
+
+.highlightwhite {
+  color: var(--white);
+}
+
+.link-up {
+  color: var(--grey);
+}
+
+.link-bottom {
+  color: var(--white);
+}
+
+.link-up:hover,
+.link-bottom:hover,
+.link-up:focus,
+.link-bottom:focus {
+  color: var(--blue);
+}
+
+.list {
+  list-style-type: none;
+}
+
+.foot {
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+.buttons {
+  background: var(--blue);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.term {
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.desc {
+  font-size: 1rem;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--grey);
+}
